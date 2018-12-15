@@ -93,7 +93,6 @@ public class Lavirint {
 			r.dodajPolje(new Polje(x, y));
 			if(najPut == null || c.compare(najPut, r) > 0) najPut = r.copy();
 			r.obrisiPolje();
-//			bio = new boolean[visina][sirina];
 			return;
 		}
 		
